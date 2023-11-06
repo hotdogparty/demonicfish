@@ -100,19 +100,26 @@
         }
 
         .demon {
-            background: url("../img/demonic_fish.png");
-            width: 80%;
-            height: 80%;
-            margin: auto;
-            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            width: 100%;
+            border: 1px solid white;
         }
+
+        .demon img {
+            width: 80vw;
+            height: 80vw;
+        }
+
 
     </style>
 
 </head>
 <body>
 
-   <div class="demon"></div>
+   <div class="demon"><img src="img/demonic_fish.png"/></div>
 
 </body>
 </html>
